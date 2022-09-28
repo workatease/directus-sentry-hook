@@ -6,7 +6,7 @@
 		"directus-extension",
 		"directus-custom-hook",
 		"sentry",
-		"sentry.io",
+		"sentry.io"
 	],
 	"directus:extension": {
 		"type": "hook",

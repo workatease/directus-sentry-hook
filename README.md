@@ -1,9 +1,11 @@
 # directus-sentry-hook
 
-Intergrate Sentry with Directus to trace and track
+Sentry with Directus
+
+[Sentry](https://sentry.io): Application Monitoring and Error Tracking Software
 
 required env variable
 
 ```
-SENTRY_DNS="https://...."
+SENTRY_DNS="https://sentry.io/api/1234567/store/"
 ```
