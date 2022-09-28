@@ -4,7 +4,9 @@
 	"keywords": [
 		"directus",
 		"directus-extension",
-		"directus-custom-hook"
+		"directus-custom-hook",
+		"sentry",
+		"sentry.io",
 	],
 	"directus:extension": {
 		"type": "hook",
@@ -20,5 +22,9 @@
 		"@directus/extensions-sdk": "9.18.1",
 		"@types/node": "^18.7.23",
 		"typescript": "^4.8.4"
+	},
+	"dependencies": {
+		"@sentry/node": "^7.13.0",
+		"@sentry/tracing": "^7.13.0"
 	}
 }
